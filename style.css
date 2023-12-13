@@ -1,0 +1,114 @@
+h1 {
+    color: #7e2ade;
+    border: 4px solid black;
+    background-color: rgb(121, 255, 64);
+}
+body {
+    /*background-image: url("assets/red.jpg");*/
+    /*background-image: url("assets/texture.png");
+    background-repeat: repeat-x; ->Deixado de lado*/ 
+    background-color: #f5f7ab;
+}
+
+p.dotted {border-style: dotted;}
+p.dashed {border-style: dashed;}
+p.solid {border-style: solid;}
+p.double {border-style: double;}
+p.groove {border-style: groove;}
+p.ridge {border-style: ridge;}
+p.inset {border-style: inset;}
+p.outset {border-style: outset;}
+p.none {border-style: none;}
+p.hidden {border-style: hidden;}
+p.mix {border-style: dotted dashed solid double;}
+
+p.um {
+    border-style: solid;
+    border-width: 5px;
+}
+
+p.dois {
+    border-style: solid;
+    border-width: medium;
+}
+
+p.tres {
+    border-style: solid;
+    border-width: 2px 10px 4px 20px;
+}
+
+p.normal{
+    border: 2px solid red;
+}
+
+p.redondo1{
+    border: 2px solid red;
+    border-radius: 5px;
+}
+
+p.redondo2{
+    border: 2px solid red;
+    border-radius: 8px;
+}
+
+p.redondo3{
+    border: 2px solid red;
+    border-radius: 12px;
+}
+
+h2 {
+    text-align:left;
+}
+h3 {
+    text-align: center;
+}
+h4 {
+    text-align: right;
+}
+h5 {
+    text-align: justify;
+}
+
+a {
+    text-decoration: none;
+}
+
+.linhaCima {
+    text-decoration: overline;
+}
+
+.tachado {
+    text-decoration: line-through;
+}
+
+.linhaBaixo {
+    text-decoration: underline;
+}
+
+p.uppercase{
+    text-transform: uppercase;
+}
+
+p.lowercase{
+    text-transform: lowercase;
+}
+
+p.capitalize {
+    text-transform: capitalize;
+}
+
+h2.sombra {
+    text-shadow: 3px 2px #8c4db0;
+}
+
+p {
+    font-family: "Arial", "Verdana" serif;
+}
+
+p.px {
+    font-size: 30px;
+}
+
+p.em {
+    font-size: 2.5em;
+}

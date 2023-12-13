@@ -1,0 +1,27 @@
+.imagemCentralizada {
+    display: block;
+    margin: auto;
+    width: 50%;
+}
+
+.textoCentralizado {
+    text-align: center;
+}   
+
+.fonte {
+    font-family: Helvetica, Arial sans-serif;
+}
+
+.limpo {
+    color:black;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+body {
+    background-color:#fcd590;
+}
+
+
+
+
