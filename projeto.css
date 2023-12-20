@@ -1,7 +1,13 @@
 .imagemCentralizada {
     display: block;
     margin: auto;
-    width: 50%;
+    width: 40%;
+}
+
+.imagemCentralizadaGrande {
+    display: block;
+    margin: auto;
+    width: 60%;
 }
 
 .textoCentralizado {
@@ -19,9 +25,43 @@
 }
 
 body {
-    background-color:#fcd590;
+    background-color:#ffe7ce;
 }
 
+.bordaPrata {
+    border: 5px solid #D3D3D3;
+    border-radius: 15px;
+}
 
+.bordaDourada {
+    border: 5px solid #ffd700;
+    border-radius: 15px;
+}
 
+.bordaPreta {
+    border: 5px solid #000;
+    border-radius: 15px;
+}
 
+.fundoCabeçalho {
+    border-radius: 80px 80px 80px 80px;
+    background-color: #c08457;
+    border: 4px solid #000000;
+    margin: 20px;
+}
+
+/* Arthur */
+.containerImagemLink {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.imagemLink {
+    width: 50%;
+}
+
+.imagemLink img {
+    width: 100%;
+}
