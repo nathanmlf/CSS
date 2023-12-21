@@ -1,16 +1,16 @@
-.imagemCentralizada {
+.imgC {
     display: block;
     margin: auto;
     width: 40%;
 }
 
-.imagemCentralizadaGrande {
+.imgCG {
     display: block;
     margin: auto;
     width: 60%;
 }
 
-.textoCentralizado {
+.txtC {
     text-align: center;
 }   
 
@@ -28,17 +28,17 @@ body {
     background-color:#ffe7ce;
 }
 
-.bordaPrata {
+.bPrata {
     border: 5px solid #D3D3D3;
     border-radius: 15px;
 }
 
-.bordaDourada {
+.bDourada {
     border: 5px solid #ffd700;
     border-radius: 15px;
 }
 
-.bordaPreta {
+.bPreta {
     border: 5px solid #000;
     border-radius: 15px;
 }
@@ -48,6 +48,54 @@ body {
     background-color: #c08457;
     border: 4px solid #000000;
     margin: 20px;
+}
+
+h1 {
+    font-style: oblique;
+    text-shadow: 4px 4px 4px #FEB71E;
+}
+
+h2 {
+    text-decoration: underline;
+}
+
+.fort {
+    text-decoration: #000000 underline 2px;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+a:hover  {
+    color:#FEB71E;
+}
+
+.bP {
+    background-color: #c08457;
+    border: 2px solid #000000;
+    border-radius: 5px;
+    margin: auto;
+    text-align:justify;  
+}
+
+table{
+    table-layout: fixed;
+    border: 4px solid black;
+    border-collapse: collapse;
+    width: 100%    
+}
+
+th, td {
+    border: 2px solid black;
+}
+
+.highlight {
+    font-weight: bold;
+    background-color:#FEB71E
+}
+
+.highlight1 {
+    font-weight: bold;
+    background-color:#c08457;
 }
 
 /* Arthur */
