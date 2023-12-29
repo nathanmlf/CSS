@@ -114,7 +114,22 @@ th, td {
 .footer {
     background-color:#c08457;
     padding: 5px;
-    margin-top: 10px;
+    text-align: center;
 }
 
+.box {
+    display: flex;
+    flex-direction: row;
+}
+
+.row {
+    justify-content: space-around;
+    flex: 1;
+}
+
+@media only screen and (max-width: 620px) {
+    .menu, .main, .right {
+        width: 100%;
+ }
+}
 
